@@ -20,7 +20,7 @@ for i in products:
 
     name=i.find('a',class_='title').text
     price=i.find('h4',class_='pull-right price').text
-    desc=i.find('p',class_='description')
+    desc=i.find('p',class_='description').text
     pname.append(name)
     pprice.append(price)
     pdesc.append(desc)
